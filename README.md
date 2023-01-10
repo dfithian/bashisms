@@ -14,4 +14,6 @@ lsof -p <pid> # list open files, look for pipes
 
 strace -p <pid> # look at the syscalls for this process
 strace -f <command> # follow a command - everything and everything it forks
+
+free -h # human readable
 ```
