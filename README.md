@@ -17,3 +17,9 @@ strace -f <command> # follow a command - everything and everything it forks
 
 free -h # human readable
 ```
+
+# nix
+
+```bash
+nix-shell <command> --option fallback true --option substitute false # if hydra is down
+```
